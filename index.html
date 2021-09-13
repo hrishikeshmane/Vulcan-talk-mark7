@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vulcan Talk 🖖</title>
+    <style>
+        body{
+            background-image: url("https://www.oregonlive.com/resizer/kjZnRVu3OsfQBY2QfwyZtjzh8uU=/1280x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/MMJRQS5K7BCPRG256KVQ7GCEYM.jpg");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 700px;
+            margin: auto; 
+        }
+
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            background-color: white;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+  <body>
+    <h1>Vulcan Translator</h1>
+    <textarea id="txt-input"
+        placeholder="Enter your input in English here and we will convert it to Vulcan"></textarea>
+    <button id="btn-translate">Translate 🖖</button>
+
+    <div style="font-size: larger;"> Output will come here 👇</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
